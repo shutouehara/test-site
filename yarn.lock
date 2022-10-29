@@ -4944,6 +4944,11 @@ gatsby-parcel-config@0.15.1:
     "@parcel/transformer-js" "2.6.2"
     "@parcel/transformer-json" "2.6.2"
 
+gatsby-plugin-no-index@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-no-index/-/gatsby-plugin-no-index-1.0.2.tgz#2e37e8ba381d398752581bc50d13c524efba65a0"
+  integrity sha512-gCRkGfhBBdfEf/jc+Mos9J70FtJcM/39SjxBWpO8KpOASZEre6lsuDFnF0u8bc44VExN76GNEmpUf271LHPH3Q==
+
 gatsby-plugin-page-creator@^4.24.1:
   version "4.24.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.24.1.tgz#1088c2c4ea115f65008ebc0fb21da1403c6326d1"
