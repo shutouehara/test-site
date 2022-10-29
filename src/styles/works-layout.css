@@ -1,0 +1,6 @@
+.hero-title {
+  z-index: 1;
+}
+.hero-image {
+  z-index: 0;
+}

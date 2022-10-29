@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
-import Layout from "../../components/layout";
+import CategoriesLayout from "../../components/categoriesLayout";
+
+import heroImg from "../../../static/bookstand-bg.jpg";
 
 export default function Works () {
   return (
-    <Layout>
-      <h1>this is top page!</h1>
+    <CategoriesLayout h1="受付業務一覧" heroImg={heroImg}>
       <ul>
         <li>
           <Link to="/">トップページ</Link>
@@ -41,6 +42,6 @@ export default function Works () {
           <Link to="/works/curio/">古物商</Link>
         </li>
       </ul>
-    </Layout>
+    </CategoriesLayout>
   )
 }
