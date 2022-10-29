@@ -6,6 +6,7 @@ export default function privacyPolicy () {
   return(
     <Layout>
       <h1>privacy-policy</h1>
+      <Link to="/">TOP</Link>
     </Layout>
   )
 }

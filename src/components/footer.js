@@ -7,10 +7,10 @@ const Footer = () => {
     <footer className="pt-4">
       <div className="row mb-4">
         <p className="col text-center">
-          <Link to="/privacypolicy">プライバシーポリシー</Link>
+          <Link to="/privacy-policy/">プライバシーポリシー</Link>
         </p>
         <p className="col text-center">
-          <Link to="/disclaimer">免責事項</Link>
+          <Link to="/disclaimer/">免責事項</Link>
         </p>
         <p className="col text-center">
           <Link to="/">トップページ</Link>

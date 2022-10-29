@@ -2,7 +2,7 @@
   background: -40% 80% / 80% url(../../static/cafe-bg.jpg) no-repeat;
 }
 .achievement-section {
-  background: 120% 64% / 64% url(../../static/kumoji-bg-dark.jpg) no-repeat;
+  background: 160% 48% / 80% url(../../static/kumoji-bg-dark.jpg) no-repeat;
 }
 
 .white-band {
@@ -11,8 +11,8 @@
 .white-band:before {
   content: '';
   position: absolute;
-  width: 240%;
-  height: 400%;
+  width: 320%;
+  height: 800%;
   background: #fff;
   top: 50%;
   left: 50%;
