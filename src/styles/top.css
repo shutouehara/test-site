@@ -1,0 +1,42 @@
+.features-section {
+  background: -40% 80% / 80% url(../../static/cafe-bg.jpg) no-repeat;
+}
+.achievement-section {
+  background: 120% 64% / 64% url(../../static/kumoji-bg-dark.jpg) no-repeat;
+}
+
+.white-band {
+  z-index: 1;
+}
+.white-band:before {
+  content: '';
+  position: absolute;
+  width: 240%;
+  height: 400%;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(36deg);
+  z-index: -1;
+}
+
+.top-news-section {
+  position: relative;
+  background: #ffffffde;
+  margin-right: 80px;
+  margin-top: 200px;
+}
+.top-news-section:before {
+  position: absolute;
+  content: '';
+  background: 100% / contain url(../../static/relux-bg.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: -160px;
+  right: -80px;
+}
+.news-image {
+  width: 104px;
+  height: 104px;
+}
