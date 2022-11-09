@@ -23,14 +23,18 @@ const Header = () => {
 
   const [ headerBgClass, setHeaderBgClass ] = useState('header-transparent');
   const toggleHeaderClass = () => {
-    window.scrollY > 120
-    ? setHeaderBgClass('header-mainColor')
-    : setHeaderBgClass('header-transparent');
+    window.scrollY < 120
+    ? setHeaderBgClass('header-transparent')
+    : setHeaderBgClass('header-mainColor');
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', toggleHeaderClass);
-    return () => window.removeEventListener('scroll', toggleHeaderClass);
+    if( isRootPath === true ) {
+      window.addEventListener('scroll', toggleHeaderClass);
+      return () => window.removeEventListener('scroll', toggleHeaderClass);
+    } else {
+      setHeaderBgClass('header-mainColor');
+    }
   },[]);
 
   return (

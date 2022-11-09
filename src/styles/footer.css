@@ -1,4 +1,4 @@
 footer {
-  background-color: #7E521F;
+  background-color: var(--main--color);
   color: #f7ecde;
 }

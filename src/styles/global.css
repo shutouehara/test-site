@@ -1,5 +1,8 @@
 
 /* common */
+:root {
+  --main--color: #7e511fd4;
+}
 * {
   max-width: 100%;
   box-sizing: border-box;
@@ -8,9 +11,9 @@ body {
   background: #F7ECDE;
   letter-spacing: 1px;
 }
-p, a, li, td, dt, dd, span {
+p, a, li, td, dt, dd, span, p.h1, p.h2, p.h3, p.h4, p.h5 {
   font-size: 18px;
-  line-height: 1.8 !important;
+  line-height: 1.8;
 }
 a {
   text-decoration: none;
@@ -36,6 +39,7 @@ img {
   position: relative;
   padding: 12px;
   width: 88%;
+  line-height: 1.5;
 }
 .button-white:before, .button-black:before {
   position: absolute;
@@ -75,4 +79,8 @@ img {
 .button-black:after {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
+}
+a.has-under-line {
+  text-decoration: underline;
+  color: var(--main--color);
 }

@@ -18,7 +18,7 @@ header {
     padding-bottom: 4px;
   }
   .header-mainColor {
-    background: #7e511fd4;
+    background: var(--main--color);
     transition: ease 1s;
   }
   .header-transparent {

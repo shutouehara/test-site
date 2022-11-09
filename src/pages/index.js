@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import CarouselComponent from "../components/carouselComponent";
+import ToContact from "../components/toContact";
 import "../styles/top.css";
 
-import logo from "../../static/logo_rise.png";
 import hero from '../../static/rise_hero.webp';
 import serviceIcon from '../../static/serviceIcon.svg';
 
@@ -116,18 +116,7 @@ export default function Home () {
           </div>
         </div>
       </section>
-      <section className="my-5 py-5">
-        <div className="d-flex justify-content-center gap-5 m-auto">
-          <p className="mb-0"><img src={logo} alt="" width={160} /></p>
-          <p className="align-self-center fs-5 mb-0">沖縄の発展のために</p>
-        </div>
-        <p className="text-center my-4">初回のご相談に費用は一切かかりません。<br />お気軽にお問合せください。</p>
-        <div className="my-5 w-25 m-auto">
-          <Link to="/contact">
-            <p className="button-black">お問い合わせ</p>
-          </Link>
-        </div>
-      </section>
+      <ToContact />
     </Layout>
   )
 }
