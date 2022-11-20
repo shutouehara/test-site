@@ -40,18 +40,18 @@ export default function Works () {
           </li>
         </ul>
       </section>
-      <section id="constructionLicense" className="mt-5 mx-5 p-5">
+      <section id="constructionLicense" className="scroll-target mt-5 mx-5 p-5">
         <div className="w-75">
           <h2 className="mb-4">建設業許可</h2>
           <p className="mb-0"><Link className="has-under-line" to="/works/constructionLicense/">建設業許可関連</Link></p>
           <ul>
-            <li><Link className="has-under-line" to="/works/constructionLicense/#apply">建設業許可申請について</Link></li>
-            <li><Link className="has-under-line" to="/works/constructionLicense/#reports">年度報告書について</Link></li>
+            <li><Link className="has-under-line" to="/works/constructionLicense/#application">建設業許可申請について</Link></li>
+            <li><Link className="has-under-line" to="/works/constructionLicense/#annualReport">年度報告書提出について</Link></li>
             <li></li>
           </ul>
         </div>
       </section>
-      <section id="managementExamination" className="mx-5 p-5">
+      <section id="managementExamination" className="scroll-target mx-5 p-5">
         <div className="w-75">
           <h2 className="mb-4">経営事項審査</h2>
           <p className="mb-0"><Link className="has-under-line" to="/works/managementExamination/">経営規模等評価申請関連</Link></p>
@@ -61,7 +61,7 @@ export default function Works () {
           </ul>
         </div>
       </section>
-      <section id="bid" className="mx-5 p-5">
+      <section id="bid" className="scroll-target mx-5 p-5">
         <div className="w-75">
           <h2 className="mb-4">入札参加</h2>
           <p className="mb-0"><Link className="has-under-line" to="/works/bid/">入札参加関連</Link></p>
@@ -72,13 +72,13 @@ export default function Works () {
           </ul>
         </div>
       </section>
-      <section id="industrialDisposal" className="mx-5 p-5">
+      <section id="industrialDisposal" className="scroll-target mx-5 p-5">
         <div className="w-75">
           <h2 className="mb-4">産業廃棄物収集運搬業許可</h2>
           <p className="mb-0"><Link className="has-under-line" to="/works/industrialDisposal/">産業廃棄物収集運搬業許可</Link></p>
         </div>
       </section>
-      <section id="others" className="mx-5 mb-5 p-5">
+      <section id="others" className="scroll-target mx-5 mb-5 p-5">
         <div className="w-75">
           <h2 className="mb-4">その他</h2>
         <p>建設業務に関わる農地法関連、古物商関連など</p>

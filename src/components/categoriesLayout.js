@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import Layout from "./layout";
 import ToContact from "../components/toContact";
 import "../styles/categories-layout.css";

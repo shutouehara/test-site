@@ -37,7 +37,6 @@
   background: url(../../static/others.png);
 }
 #constructionLicense, #managementExamination, #bid, #industrialDisposal, #others {
-  scroll-margin-top: 120px;
   border-image: url(../../static/border_0.svg) repeat;
   border-image-slice: 24;
   border-top: 16px solid;
@@ -50,6 +49,57 @@
 #constructionLicense li, #managementExamination li, #bid li, #industrialDisposal li, #others li {
   list-style: '≫';
   padding-left: 8px;
+}
+
+/* child page common */
+.child-page-wrapper section {
+  max-width: 1200px;
+  margin: auto;
+}
+/* .child-page-wrapper h2 {} */
+.child-page-wrapper h3 {
+  padding-left: 32px;
+}
+.child-page-wrapper h3:before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: var(--main--color);
+  border-radius: 50%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+/* works child page */
+.page-navi-list {
+  list-style: none;
+}
+.page-navi-list span:before {
+  content: '▼';
+  position: absolute;
+  left: -16px;
+}
+.work-flow {
+  gap: 80px;
+}
+.work-flow li {
+  width: 160px;
+  height: 160px;
+}
+.work-flow li:not(:last-child):before {
+  content: '';
+  position: absolute;
+  right: -64px;
+  border: 16px solid transparent;
+  border-radius: 4px;
+  border-left: 16px solid #000;
+  width: 16px;
+  height: 16px;
+}
+.list-has-head li::marker {
+  font-size: 1.5rem;
 }
 
 /* features */

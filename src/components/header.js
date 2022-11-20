@@ -29,7 +29,7 @@ const Header = () => {
   };
 
   useEffect(() => {
-    if( isRootPath === true ) {
+    if( isRootPath ) {
       window.addEventListener('scroll', toggleHeaderClass);
       return () => window.removeEventListener('scroll', toggleHeaderClass);
     } else {
@@ -38,7 +38,7 @@ const Header = () => {
   },[]);
 
   return (
-    <header id="header" className={`px-4 w-100 position-fixed zindex-fixed ${headerBgClass}`}>
+    <header id="header" className={`px-4 w-100 position-fixed top-0 zindex-fixed ${headerBgClass}`}>
       <Navbar expand="md" variant="dark" className="py-0 d-flex justify-content-between">
         <Navbar.Brand href="/">{HeaderLogo}</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
