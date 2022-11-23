@@ -56,7 +56,7 @@ export default function Works () {
           <h2 className="mb-4">経営事項審査</h2>
           <p className="mb-0"><Link className="has-under-line" to="/works/managementExamination/">経営規模等評価申請関連</Link></p>
           <ul>
-            <li><Link className="has-under-line" to="/works/managementExamination/#analytics">経営状況分析申請</Link></li>
+            <li><Link className="has-under-line" to="/works/managementExamination/#managementAnalysis">経営状況分析申請</Link></li>
             <li></li>
           </ul>
         </div>

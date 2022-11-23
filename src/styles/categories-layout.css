@@ -65,11 +65,18 @@
   position: absolute;
   width: 24px;
   height: 24px;
-  background: var(--main--color);
+  background: #000;
   border-radius: 50%;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+}
+.child-page-wrapper a, .child-page-wrapper a span {
+  text-decoration: underline;
+  color: var(--main--color);
+}
+.child-page-wrapper nav.border {
+  border-color: var(--main--color)!important;
 }
 
 /* works child page */
