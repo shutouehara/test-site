@@ -66,8 +66,8 @@ export default function Works () {
           <h2 className="mb-4">入札参加</h2>
           <p className="mb-0"><Link className="has-under-line" to="/works/bid/">入札参加関連</Link></p>
           <ul>
-            <li><Link className="has-under-line" to="/works/bid/#consultant">工事、測量及び建設コンサルタントについて</Link></li>
-            <li><Link className="has-under-line" to="/works/bid/#objects">物品、役務業について</Link></li>
+            <li>工事、測量及び建設コンサルタントについて</li><Link className="has-under-line" to="/works/bid/#consultant"></Link>
+            <li>物品、役務業について</li><Link className="has-under-line" to="/works/bid/#objects"></Link>
             <li></li>
           </ul>
         </div>
@@ -75,7 +75,7 @@ export default function Works () {
       <section id="industrialDisposal" className="scroll-target mx-5 p-5">
         <div className="w-75">
           <h2 className="mb-4">産業廃棄物収集運搬業許可</h2>
-          <p className="mb-0"><Link className="has-under-line" to="/works/industrialDisposal/">産業廃棄物収集運搬業許可</Link></p>
+          <p className="mb-0"><Link className="has-under-line" to="/works/industrialDisposal/">産業廃棄物収集運搬業許可申請</Link></p>
         </div>
       </section>
       <section id="others" className="scroll-target mx-5 mb-5 p-5">
