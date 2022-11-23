@@ -65,6 +65,12 @@ export default function constructionLicense () {
             </li>
           </ul>
 
+          <div className="my-5">
+            <Link to="/contact">
+              <p className="button-black">経営状況分析申請について問い合わせてみる</p>
+            </Link>
+          </div>
+
         </section>
         <section id="examination" className="scroll-target mt-5 px-5 pb-5">
           <h2 className="pb-1 border-bottom border-5 border-dark fw-bold">経営規模等評価申請</h2>

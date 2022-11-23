@@ -187,7 +187,14 @@ export default function constructionLicense () {
             </li>
           </ul>
 
+        <div className="my-5">
+          <Link to="/contact">
+            <p className="button-black">建設業許可申請について問い合わせてみる</p>
+          </Link>
+        </div>
+
         </section>
+
         <section id="annualReport" className="scroll-target mt-5 px-5 pb-5">
           <h2 className="pb-1 border-bottom border-5 border-dark fw-bold">建設業　年度報告書提出</h2>
 

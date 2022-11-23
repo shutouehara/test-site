@@ -37,27 +37,27 @@ const CarouselComponent = () => {
         ssr={true}
         className="pt-2 pb-5"
       >
-        <Link to="/">
+        <Link to="/works/constructionLicense/">
           <div className="carousel-card bg-white py-3 px-4 text-center rounded-3 shadow">
             <p className="mb-0">建設業<br/>許可申請</p>
             <img src={serviceIcon} alt="" width={80} />
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/works/managementExamination/">
           <div className="carousel-card bg-white py-3 px-4 text-center rounded-3 shadow">
-            <p className="mb-0">経営事項<br/>審査申請</p>
+            <p className="mb-0">経営規模等<br/>評価申請</p>
             <img src={serviceIcon} alt="" width={80} />
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/works/bid/">
           <div className="carousel-card bg-white py-3 px-4 text-center rounded-3 shadow">
-            <p className="mb-0">競争入札参加資格<br/>審査申請</p>
+            <p className="mb-0">入札参加資格<br/>審査申請</p>
             <img src={serviceIcon} alt="" width={80} />
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/works/industrialDisposal/">
           <div className="carousel-card bg-white py-3 px-4 text-center rounded-3 shadow">
-            <p className="mb-0">建設業<br/>許可申請</p>
+            <p className="mb-0">産業廃棄物収集運搬業<br/>許可申請</p>
             <img src={serviceIcon} alt="" width={80} />
           </div>
         </Link>
@@ -71,24 +71,24 @@ const CarouselComponent = () => {
         ssr={true}
         className="pt-2 pb-5"
       >
-        <Link to="/">
+        <Link to="/works/constructionLicense/#applicationRequirements">
           <div className="carousel-card bg-white py-3 text-center rounded-3 shadow">
             <p className="mb-0">建設業許可申請の<br/>要件を確認する</p>
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/works/managementExamination/#managementAnalysisDocuments">
           <div className="carousel-card bg-white py-3 text-center rounded-3 shadow">
-            <p className="mb-0">経営事項審査申請に<br/>必要な書類を確認する</p>
+            <p className="mb-0">経営状況分析申請に<br/>必要な書類を確認する</p>
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/works/bid/#bidFlow">
           <div className="carousel-card bg-white py-3 text-center rounded-3 shadow">
             <p className="mb-0">競争入札参加資格審査<br/>申請の流れを確認する</p>
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/works/industrialDisposal/#industrialDisposalFee">
           <div className="carousel-card bg-white py-3 text-center rounded-3 shadow">
-            <p className="mb-0">建設業<br/>許可申請</p>
+            <p className="mb-0">産業廃棄物収集運搬業許可<br/>申請の料金を確認する</p>
           </div>
         </Link>
       </Carousel>
